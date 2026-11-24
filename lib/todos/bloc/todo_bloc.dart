@@ -22,7 +22,7 @@ class TodoBloc extends Bloc<TodoEvent, TodoState> {
     } catch (_) {
       emit(TodoState(
         todos: state.todos,
-        error: 'Nu s-au putut încărca todo-urile.',
+        error: 'couldnt load todos.',
       ));
     }
   }

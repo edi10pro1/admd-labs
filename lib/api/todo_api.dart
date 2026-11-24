@@ -11,7 +11,7 @@ class TodoApi {
 
 
   Future<List<Todo>> fetchTodos() async {
-    final res = await _dio.get('/todosfl');
+    final res = await _dio.get('/todos');
     final raw = res.data as List<dynamic>;
     return raw
         .map((j) => Todo.fromJson(j as Map<String, dynamic>))

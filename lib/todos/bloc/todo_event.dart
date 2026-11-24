@@ -19,9 +19,8 @@ class RemoveTodo extends TodoEvent {
   final int id;
 }
 
-// pentru UNDO
 class RestoreTodo extends TodoEvent {
-  RestoreTodo(this.index, this.todo);
-  final int index;
+  RestoreTodo({required this.todo, required this.index});
   final Todo todo;
+  final int index;
 }

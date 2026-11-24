@@ -3,7 +3,7 @@
 #
 # The issues identified by the analyzer are surfaced in the UI of Dart-enabled
 # IDEs (https://dart.dev/tools#ides-and-editors). The analyzer can also be
-# invoked from the command line by running `flutter analyze`.
+# invoked from the command line by running `flutter analyze`[cite: 26].
 
 # The following line activates a set of recommended lints for Flutter apps,
 # packages, and plugins designed to encourage good coding practices.
@@ -12,18 +12,12 @@ include: package:flutter_lints/flutter.yaml
 analyzer:
   exclude:
     - build/**
-<<<<<<< Updated upstream
     - android/**
     - ios/**
     - web/**
     - windows/**
     - macos/**
     - linux/**
-=======
-    - ios/**
-    - android/**
-    - macos/**
->>>>>>> Stashed changes
 
 linter:
   # The lint rules applied to this project can be customized in the
