@@ -17,6 +17,13 @@ class Todo extends Equatable {
     required this.completed,
   });
 
+  Todo copyWith({int? userId, int? id, String? title, bool? completed}) => Todo(
+        userId: userId ?? this.userId,
+        id: id ?? this.id,
+        title: title ?? this.title,
+        completed: completed ?? this.completed,
+      );
+
   factory Todo.fromJson(Map<String, dynamic> json) => _$TodoFromJson(json);
   Map<String, dynamic> toJson() => _$TodoToJson(this);
 

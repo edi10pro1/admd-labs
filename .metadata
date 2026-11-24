@@ -15,6 +15,7 @@ migration:
     - platform: root
       create_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
       base_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
+<<<<<<< Updated upstream
     - platform: android
       create_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
       base_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
@@ -33,6 +34,11 @@ migration:
     - platform: windows
       create_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
       base_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
+=======
+    - platform: ios
+      create_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
+      base_revision: 6a19cca56475dbfba1478ee68d7bd0c2ef891da1
+>>>>>>> Stashed changes
 
   # User provided section
 
