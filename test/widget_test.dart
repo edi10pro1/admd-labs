@@ -22,6 +22,6 @@ void main() {
     );
     await tester.pump();
 
-    expect(find.text('To-Do List (Lab 5)'), findsOneWidget);
+    expect(find.text('to-do list'), findsOneWidget);
   });
 }
